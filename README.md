@@ -41,7 +41,6 @@ Here, the contents of the file are preserved, and new data is added to the end o
 **Error Handling:**
 It's important to check if **fopen()** returns **NULl**. This indicates that the file could not be opened, which could be due to permissions, missing directory paths, or other reasons.
 
-**Practical Considerations:**
 When working with file handling in C:
 - Always close the file using **fclose()** to ensure proper resource management.
 - Use appropriate file modes (`"w"`, `"a"`, `"r"`, etc.) based on the intended operation.
